@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
+<title>Marie ilutuba</title>
+
+</head>
+
+<body>
+<div class="row">
+  <div class="column">
+  	<a href="index.html"><h1>Marie ilutuba</h1></a>
+    <a href="hinnakiri.html">Hinnakiri</a>
+    <a href="broneering.html">Broneeri aeg</a>
+	<div class="gallery">
+    	<img class="mySlides" src="img/ripsmed.jpeg">
+		<img class="mySlides" src="img/juuksed.jpg">
+		<img class="mySlides" src="img/kyyned.jpg">
+    </div>
+
+  </div>
+  <div class="column">
+  	<a href="https://sartorialadventure.tumblr.com/"><img src="img/tumblr.png"></a>
+    <img src="img/facebook.png">
+    <img src="img/instagram.png">
+    <ul>
+  		<li>MANIKÜÜR JA HOOLITSUSED KÄTELE
+  			<ol>
+            <li>Maniküür lakita 25.-</li>
+            <li>Maniküür lakiga 27.-</li>
+            <li>Maniküür geellakiga 30.-</li>
+  			<li>Prantsuse maniküür geellakiga 35.-</li>
+  			<li>Maniküür sooja parafiinhoolitsusega 45.-</li>
+			</ol>
+  		</li>
+  		<li>JUUKSEHOOLDUS NAISTELE
+        	<ol>
+            <li>Juustelõikus 30.-</li>
+            <li>Juustelõikus stiilimuutusega 35.-</li>
+            <li>Tukalõikus 5.-</li>
+  			<li>Thera-Cut lõikus 30.-</li>
+			</ol>
+        </li>  		
+        <li>RIPSMEHOOLDUS
+        	<ol>
+            <li>Ripsmepikendused, paigaldus 40.-</li>
+            <li>Ripsmepikendused, hooldus 30.-</li>
+			</ol>
+        </li>
+	</ul>
+
+    <p>A. Lauteri 5, 10145 Tallinn</p>
+    <p>Avatud E-R 9-18 ja L 10-15</p>
+    
+  </div>
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+
+
+
+</body>
+
+</html>
+

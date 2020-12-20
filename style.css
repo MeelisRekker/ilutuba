@@ -1,0 +1,82 @@
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: normal;
+	text-align: left;
+	color: #003;
+	background:#CFC;
+	padding-left: 350px;	
+}
+h1:hover {
+	color: #F39;
+}
+p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bolder;
+	text-align: left;
+	color: #030;
+	background: #CFC;
+}
+img {
+	box-shadow: 5px 10px #333333;
+	border-style: double;
+	border-color:#003;
+}
+
+ul {
+	margin-top: 62px;
+}
+
+li {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 34px;
+	text-shadow: 2px 2px 8px #CFC;
+	font-weight: bold;	
+}
+
+body {
+	background-color: #CFC;
+}
+.row {
+	background-image: url(img/bg.jpg);
+	background-repeat: repeat
+}
+
+h3{
+	margin-top: 832px;
+	font-size: 36px;
+}
+
+.kaart {
+	margin-top: 47px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+.gallery {
+	position:absolute;
+}
+.column a{
+	font-size: 36px;
+	font-family: "MS Serif", "New York", serif;
+	color: #603;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 200px; 
+}
+.column a:hover{
+	text-shadow: 2px 2px 8px #CFC;
+	color: #F00;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
